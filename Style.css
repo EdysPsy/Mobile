@@ -1,52 +1,47 @@
-h1{
+/* basic headings */
+h1 {
     margin: 30px;
 }
-#banner{
+
+#banner {
     width: 100%;
 }
 
-h2{
-    text-align: center;
-}
-p{
+h2,
+h3,
+p {
     text-align: center;
 }
 
-}
-#missão{
+#missão {
     font-size: 20px;
     font-style: italic;
 }
-strong{
+
+strong {
     color: red;
-
-}
-h3{
-    text-align: center;
-    
-}
-ul{
-    display: inline;
-}
-   display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
 }
 
-#beneficios{
-    width: 50%;
-
-}
-
-.principal{
-    padding: 20px;
-}
-
-.beneficios{
-    padding: 20px;
-}
+/* navigation */
 nav a {
     font-size: 30px;
-    mar
+    margin: 0 10px;
+    text-decoration: none;
 }
+
+/* lists */
+ul {
+    display: inline;
+}
+
+/* layout helpers */
+.principal,
+.beneficios {
+    padding: 20px;
+}
+
+#beneficios {
+    width: 50%;
+}
+
+/* add more rules for .cards-grid, .card, etc. as needed */
