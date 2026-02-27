@@ -31,9 +31,19 @@ nav a {
 
 /* lists */
 ul {
-    display: inline;
+    display: inline-block;
+    margin: 1cm 0 0 0;
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
+nav a :hover{
+    font-size: 31px;
+    color: peru;
+}
 /* layout helpers */
 .principal,
 .beneficios {
@@ -43,5 +53,6 @@ ul {
 #beneficios {
     width: 50%;
 }
+
 
 /* add more rules for .cards-grid, .card, etc. as needed */
