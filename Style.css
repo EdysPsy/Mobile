@@ -56,3 +56,26 @@ nav a :hover{
 
 
 /* add more rules for .cards-grid, .card, etc. as needed */
+
+/* header title adjustments */
+.logo {
+    font-size: 48px;      /* maior título */
+    text-align: center;   /* centraliza dentro do cabeçalho */
+    margin: 0;
+}
+
+/* logo/image in header */
+.header-logo {
+    max-width: 400px;     /* reduz o tamanho da imagem do logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* cards/images resizing */
+.card-image {
+    width: 100%;          /* ocupa toda a largura do cartão */
+    max-width: none;
+    height: auto;
+    display: block;
+}
